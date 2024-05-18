@@ -17,19 +17,5 @@ model User {
   id      Int      @id @default(autoincrement())
   email   String @unique
   name    String
-  age     Int
 }
 
-// model User {
-//   id      Int      @id @default(autoincrement())
-//   email   String   @unique
-//   name    String
-//   role Role @default(USER)
-
-//   @@map("users")
-// }
-
-// enum Role {
-//   ADMIN
-//   USER
-// }
